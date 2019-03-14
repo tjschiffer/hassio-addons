@@ -4,7 +4,6 @@
     "slug": "datadog-agent",
     "description": "Agent to stream your Home Assistant metrics to Datadog",
     "url": "https://github.com/DataDog/docker-dd-agent",
-    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "system",
     "boot": "auto",
     "ports": {"8125/udp": 8125},
@@ -19,5 +18,5 @@
     "schema": {
         "API_KEY": "str"
     },
-    "image": "homeassistant/{arch}-addon-datadog-agent"
+    "image": "datadog/docker-dd-agent:latest"
 }
