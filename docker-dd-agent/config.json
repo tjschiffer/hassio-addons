@@ -18,5 +18,5 @@
     "schema": {
         "API_KEY": "str"
     },
-    "image": "datadog/docker-dd-agent:latest"
+    "image": "datadog/docker-dd-agent"
 }
