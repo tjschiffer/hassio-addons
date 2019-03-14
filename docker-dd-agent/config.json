@@ -1,6 +1,6 @@
 {
     "name": "Datadog Agent",
-    "version": "lastest",
+    "version": "latest",
     "slug": "datadog-agent",
     "description": "Agent to stream your Home Assistant metrics to Datadog",
     "url": "https://github.com/DataDog/docker-dd-agent",
