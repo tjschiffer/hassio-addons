@@ -13,10 +13,10 @@
         "NON_LOCAL_TRAFFIC": false
     },
     "options": {
-        "API_KEY": ""
+        "DD_API_KEY": ""
     },
     "schema": {
-        "API_KEY": "str"
+        "DD_API_KEY": "str"
     },
-    "image": "datadog/docker-dd-agent"
+    "image": "datadog/agent"
 }
