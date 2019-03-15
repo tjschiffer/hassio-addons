@@ -1,6 +1,6 @@
 {
     "name": "Datadog Agent",
-    "version": "latest",
+    "version": "latest-alpine",
     "slug": "datadog-agent",
     "description": "Agent to stream your Home Assistant metrics to Datadog",
     "url": "https://github.com/DataDog/docker-dd-agent",
@@ -20,5 +20,5 @@
     "schema": {
         "API_KEY": "str"
     },
-    "image": "gridx/datadog-agent-arm32v7"
+    "image": "datadog/docker-dd-agent"
 }
