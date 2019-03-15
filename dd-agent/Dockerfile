@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache python
+RUN apk add -qU --no-cache coreutils curl curl-dev python-dev tar sysstat tini
 
 # Copy data for add-on
 COPY run.sh /
