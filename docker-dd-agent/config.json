@@ -7,7 +7,7 @@
     "startup": "system",
     "boot": "auto",
     "ports": {
-        "8125/udp": 8125,
+        "8125/udp": 8125
     },
     "host_network": true,
     "environment": {
