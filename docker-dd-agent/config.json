@@ -15,10 +15,10 @@
         "NON_LOCAL_TRAFFIC": false
     },
     "options": {
-        "DD_API_KEY": ""
+        "API_KEY": ""
     },
     "schema": {
-        "DD_API_KEY": "str"
+        "API_KEY": "str"
     },
     "image": "gridx/datadog-agent-arm32v7"
 }
