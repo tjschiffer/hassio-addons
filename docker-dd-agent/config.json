@@ -18,5 +18,5 @@
     "schema": {
         "DD_API_KEY": "str"
     },
-    "image": "datadog/agent"
+    "image": "gridx/datadog-agent-arm32v7"
 }
