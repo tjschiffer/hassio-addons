@@ -20,10 +20,5 @@
     "schema": {
         "DD_API_KEY": "str"
     },
-    "devices": [
-        "/var/run/docker.sock:/var/run/docker.sock:ro",
-        "/proc/:/host/proc/:ro",
-        "/sys/fs/cgroup/:/host/sys/fs/cgroup:ro"
-    ],
     "image": "gridx/datadog-agent-arm32v7"
 }
