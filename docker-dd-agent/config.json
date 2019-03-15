@@ -6,7 +6,9 @@
     "url": "https://github.com/DataDog/docker-dd-agent",
     "startup": "system",
     "boot": "auto",
-    "ports": {"8125/udp": 8125},
+    "ports": {
+        "8125/udp": 8125,
+    },
     "host_network": true,
     "environment": {
         "SD_BACKEND": "docker",
@@ -18,5 +20,10 @@
     "schema": {
         "DD_API_KEY": "str"
     },
+    "devices": [
+        "/var/run/docker.sock:/var/run/docker.sock:ro",
+        "/proc/:/host/proc/:ro",
+        "/sys/fs/cgroup/:/host/sys/fs/cgroup:ro"
+    ],
     "image": "gridx/datadog-agent-arm32v7"
 }
