@@ -1,0 +1,15 @@
+name: "Datadog"
+description: "Send Home Assistant states and events to Datadog via the API"
+version: "0.0.1"
+slug: "datadog"
+init: false
+homeassistant_api: true
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+schema:
+  DD_SITE: str
+  DD_API_KEY: str

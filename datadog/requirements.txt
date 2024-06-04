@@ -1,0 +1,5 @@
+asyncio
+websockets
+datadog_api_client
+zstandard
+requests
